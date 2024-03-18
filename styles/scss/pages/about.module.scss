@@ -1,0 +1,261 @@
+@media screen and (min-width: 768px) {
+  .about {
+  width: 100%;
+  margin-bottom: 20rem;
+
+  &_text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30rem;
+    opacity: .1;
+    font-weight: 600;
+    @include Bfont;
+  }
+  &_inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  &_lf {
+    z-index: 1;
+    display: flex;
+    width: 50%;
+    position: relative;
+
+    &_image {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &_rt {
+    z-index: 2;
+    margin-left: 100px;
+    &_image {
+      display: none;
+    }
+    &_typingbox {
+      padding-top: -2rem;
+      height: 150px;
+      pre {
+        font-size: 6rem;
+        font-weight: 600;
+        margin: 0 !important;
+        @include Bfont;
+      }
+    }
+
+    .blink {
+        animation: blink 0.5s infinite;
+        font-size: 6.5rem;
+    }
+
+    @keyframes blink {
+        to {
+            opacity: 0;
+        }
+    }
+
+    &_textbox {
+      position: relative;
+      padding-top: 8rem;
+      padding-left: 5rem;
+      &_rotate {
+        position: absolute;
+        left: -100px;
+        bottom: 190px;
+        display: inline-block;
+        transform: rotate(90deg);
+        &::after {
+            content: "";
+            display: block;
+            width: 4rem;
+            height: 1px;
+            background: #000;
+            position: absolute;
+            top: .8rem;
+            left: 13rem;
+        }
+
+        h2 {
+            font-size: 1.7rem;
+            font-weight: 400;
+            letter-spacing: 1.5rem;
+        }
+      }
+
+      &_text {
+          font-size: 1.6rem;
+          font-weight: 600;
+          line-height: 2.5;
+      }
+
+      &_btn {
+          margin-top: 2rem;
+          width: 200px;
+          height: 60px;
+          line-height: 60px;
+          text-align: center;
+          cursor: pointer;
+          a {
+              display: block;
+              text-decoration: none;
+              position: relative;
+              width: 100%;
+              height: 100%;
+              border: 1px solid #000;
+              z-index: 1;
+              color: #000;
+
+              &::after {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  content: "";
+                  width: 0%;
+                  height: 100%;
+                  transition: all 0.3s;
+                  background: #222;
+              }
+
+              &:hover {
+                  color: #fff;
+
+                  &::after {
+                      width: 100%;
+                      z-index: -1;
+                  }
+              }
+          }
+      }
+    }
+  }
+}
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    width: 100%;
+    padding: 0 1rem;
+    margin-bottom: 120px;
+  
+    &_text {
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 6rem;
+      opacity: .1;
+      font-weight: 600;
+      @include Bfont;
+    }
+    &_inner {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    &_lf {
+      display: none;
+    }
+  
+    &_rt {
+      position: relative;
+      &_typingbox {
+        position: absolute;
+        pre {
+          font-size: 3rem;
+          font-weight: 600;
+          margin: 0 !important;
+          @include Bfont;
+        }
+      }
+  
+      .blink {
+          animation: blink 0.5s infinite;
+          font-size: 6.5rem;
+      }
+  
+      @keyframes blink {
+          to {
+              opacity: 0;
+          }
+      }
+      &_image {
+        width: 100%;
+        padding-top: 150px;
+        margin-bottom: 24px;
+      }
+  
+      &_textbox {
+        position: relative;
+        &_rotate {
+          position: relative;
+          text-align: right;
+          margin-bottom: 12px;
+          &::after {
+              content: "";
+              display: block;
+              width: calc(100% - 200px);
+              height: 1px;
+              background: #000;
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+          }
+  
+          h2 {
+              font-size: 1.6rem;
+              font-weight: 400;
+              letter-spacing: 1.5rem;
+          }
+        }
+  
+        &_text {
+            font-size: 1.4rem;
+        }
+  
+        &_btn {
+            margin-top: 2rem;
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            cursor: pointer;
+            a {
+                display: block;
+                text-decoration: none;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                border: 1px solid #000;
+                z-index: 1;
+                color: #000;
+  
+                &::after {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    content: "";
+                    width: 0%;
+                    height: 100%;
+                    transition: all 0.3s;
+                    background: #222;
+                }
+  
+                &:hover {
+                    color: #fff;
+  
+                    &::after {
+                        width: 100%;
+                        z-index: -1;
+                    }
+                }
+            }
+        }
+      }
+    }
+  }
+}

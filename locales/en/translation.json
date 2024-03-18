@@ -1,0 +1,43 @@
+{
+  "about": {
+    "text":"My dream is to become a front-end developer.<br/>To achieve my dream by growing one step further,<br/>I will become a web publisher who is not refined from the existing ones, is not afraid to learn, and always strives to improve."
+  },
+  "skill1": {
+    "text1": "Semantic markup work that takes web standards and access into account",
+    "text2": "Reactive web production is possible",
+    "text3": "Maintenance Optimized Code Using SCSS"
+  },
+  "skill2": {
+    "text1": "Implementing a variety of interactions",
+    "text2": "Leveraging plug-ins"
+  },
+  "skill3": {
+    "text1": "Using useState to manage health",
+    "text2": "Run specific events when rendering using useEffect",
+    "text3": "Single object delivery to components using props",
+    "text4": "Using React Grammar"
+  },
+  "skill4": {
+    "text1": "Shape management with Git"
+  },
+  "skill5": {
+    "text1": "Implementing a variety of interactions using lifecycle",
+    "text2": "vue2, vue3 available",
+    "text3": "Common, page component implementation"
+  },
+  "skill6": {
+    "text1": "Sharing job status",
+    "text2": "Issue management"
+  },
+  "portfolio": {
+    "text1": "re blog_re design",
+    "text2": "want you_ company project",
+    "text3": "lina_ company project",
+    "text4": "freeive_ company project",
+    "text5": "elyfi_ clone coding",
+    "text6": "the Grand Bell Film Festival_re design",
+    "text7": "National Museum of Modern and Contemporary Art_ clone coding",
+    "text8": "Golden Disc Awards(React-next)_ re design",
+    "text9": "Hyundai Department Store(React_next)_ clone coding"
+  }
+}

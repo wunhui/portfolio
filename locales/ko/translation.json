@@ -1,0 +1,43 @@
+{
+  "about": {
+    "text":"저의 꿈은 프론트 엔드 개발자입니다.<br/>한 단계식 성장하여 저의 꿈을 이루기 위해<br/>기존것에 정제되어있지 않고 배움을 두려워하지 않으며<br/>발전을 위해 항상 노력하는 웹퍼블리셔가 되겠습니다."
+  },
+  "skill1": {
+    "text1": "웹 표준 및 접근을 고려한 시맨틱 마크업 작업",
+    "text2": "반응형 웹 제작 가능",
+    "text3": "SCSS를 사용한 유지보수 최적화 된 코드"
+  },
+  "skill2": {
+    "text1": "다양한 인터렉션 구현",
+    "text2": "플러그인 활용"
+  },
+  "skill3": {
+    "text1": "useState를 이용한 상태관리",
+    "text2": "useEffect를 이용하여 렌더링시 특정 이벤트 실행",
+    "text3": "props를 이용한 컴포넌트로 단일객체 전달",
+    "text4": "React 문법 활용"
+  },
+  "skill4": {
+    "text1": "Git을 이용한 형상 관리"
+  },
+  "skill5": {
+    "text1": "라이프 사이클 활용 한 다양한 인터렉션 구현",
+    "text2": "vue2, vue3 사용 가능",
+    "text3": "공통, 페이지 component 구현"
+  },
+  "skill6": {
+    "text1": "작업 현황 공유",
+    "text2": "이슈 관리"
+  },
+  "portfolio": {
+    "text1": "리 블로그_re design",
+    "text2": "원하냥_ company project",
+    "text3": "라이나생명_ company project",
+    "text4": "프리아이브_ company project",
+    "text5": "엘리파이_ clone coding",
+    "text6": "대종상 영화제_re design",
+    "text7": "국립현대미술관_ clone coding",
+    "text8": "골든디스크어워즈(React-next)_ re design",
+    "text9": "현대백화점(React_next)_ clone coding"
+  }
+}

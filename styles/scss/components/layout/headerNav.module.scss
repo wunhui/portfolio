@@ -1,0 +1,17 @@
+.headerNav{
+    &_wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    &_button{
+        font-size: $fs24;
+        padding: 3px 12px;
+        border-bottom: 1px solid $black;
+        &_on {
+            padding: 3px 12px;
+            font-size: $fs24;
+            background-color: $black;
+            color: $white;
+        }
+    }
+}

@@ -29,13 +29,15 @@ const Skill = () => {
                                 <li>{t('skill1.text1')}</li> 
                                 <li>{t('skill1.text2')}</li>
                                 <li>{t('skill1.text3')}</li>
+                                <li>{t('skill1.text4')}</li>
                             </ul>
                             </div>
                             <div className={skill.skill_lf_list_text}>
-                                <h3>2 - Javascript & Jquery</h3>
+                                <h3>2 - Java(type)script & Jquery</h3>
                             <ul>
                                 <li>{t('skill2.text1')}</li> 
                                 <li>{t('skill2.text2')}</li>
+                                <li>{t('skill2.text3')}</li>
                             </ul>
                             </div>
                         </div>

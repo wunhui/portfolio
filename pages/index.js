@@ -9,8 +9,9 @@ import About from './about';
 import Skill from './skill';
 import Portfolio from './portfolio';
 import { useEffect, useState } from 'react'
+// import { useGSAP } from '@gsap/react';
 export default function Home() { 
-  let [loading, setLoading] = useState(true)
+  let [loading, setLoading] = useState(false)
   useEffect(() => {
     if(loading === true) {
       setTimeout(() => {

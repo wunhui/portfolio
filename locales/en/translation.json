@@ -3,13 +3,15 @@
     "text":"My dream is to become a front-end developer.<br/>To achieve my dream by growing one step further,<br/>I will become a web publisher who is not refined from the existing ones, is not afraid to learn, and always strives to improve."
   },
   "skill1": {
-    "text1": "Semantic markup work that takes web standards and access into account",
-    "text2": "Reactive web production is possible",
-    "text3": "Maintenance Optimized Code Using SCSS"
+    "text1": "Semantic markup tasks considering web standards and access",
+    "text2": "Reactive weCan understand and build reactive and adaptiveb production is possible",
+    "text3": "SASS (SCSS), working with styled-components",
+    "text4": "Web accessibility, Web standards, cross-browsing markup available"
   },
   "skill2": {
     "text1": "Implementing a variety of interactions",
-    "text2": "Leveraging plug-ins"
+    "text2": "Leveraging plug-ins",
+    "text3": "use the typescript"
   },
   "skill3": {
     "text1": "Using useState to manage health",

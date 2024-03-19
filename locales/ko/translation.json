@@ -4,12 +4,14 @@
   },
   "skill1": {
     "text1": "웹 표준 및 접근을 고려한 시맨틱 마크업 작업",
-    "text2": "반응형 웹 제작 가능",
-    "text3": "SCSS를 사용한 유지보수 최적화 된 코드"
+    "text2": "반응형, 적응형에 대한 이해 및 제작 가능",
+    "text3": "SASS(SCSS), styled-components 이용하여 작업 가능",
+    "text4": "웹접근성, 웹표준, 크로스 브라우징 마크업 가능"
   },
   "skill2": {
     "text1": "다양한 인터렉션 구현",
-    "text2": "플러그인 활용"
+    "text2": "플러그인 활용",
+    "text3": "typescript 사용 가능"
   },
   "skill3": {
     "text1": "useState를 이용한 상태관리",

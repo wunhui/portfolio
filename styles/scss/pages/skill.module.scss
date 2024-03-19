@@ -88,7 +88,6 @@
                   width: 100%;
                   margin-bottom: 8rem;
                   margin-left: 2rem;
-
                   li {
                       width: 100%;
                       margin: 2rem 0;
@@ -198,6 +197,7 @@
                     li {
                         width: 100%;
                         font-size: 1.4rem;
+                        list-style-type: disc;
                         &:not(&:last-child) {
                         margin-bottom: 4px;
                         }
